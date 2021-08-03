@@ -1,2 +1,2 @@
 # Projeto Music Dot
- Projeto da disciplina Desenvolvimento WEB
+ Projeto para a disciplina Desenvolvimento WEB.
