@@ -1,0 +1,19 @@
+body {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    /*troca a família da fonte de toda a página*/
+    color: #3D3D3D; /*altera a cor da fonte para um cinza-escuro*/
+}
+
+h1 {
+    background-color: #E1EDF2; /*coloca uma cor de fundo cinza-azulado*/
+}
+
+h2 {
+    border-bottom: 2px solid black; /*coloca uma borda na parte de baixo*/
+}
+
+figure {
+    text-align: center; /*centraliza o conteúdo*/
+    background-color: whitesmoke; /*coloca uma cor de fundo*/
+    border: 1px solid lightgrey; /*altera a cor da fonte para um cinza-claro*/
+}
