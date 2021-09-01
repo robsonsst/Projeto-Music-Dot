@@ -1,5 +1,6 @@
 .rodape {
-    padding: 2em 5%;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
     font-size: 0.7rem;
 }
@@ -51,7 +52,7 @@
     }
 }
 
-@media(min-width: 640px) {
+@media(min-width: 640px) and (max-width: 1200px) {
     .rodape {
         display: flex;
         flex-wrap: wrap;
@@ -79,5 +80,26 @@
     .rodape__secao--newsletter {
         order: 4;
         margin-top: 2em;
+    }
+}
+
+@media(min-width: 1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        text-align: left;
+    }
+    .rodape__titulo {
+        font-size: 1em;
+    }
+    .rodape__lista-midias-sociais {
+        justify-content: left;
+    }
+    .rodape__secao {
+        margin-top: 0;
+    }
+    .rodape__secao.rodape__secao {
+        margin-left: 2em;
     }
 }
